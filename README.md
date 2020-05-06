@@ -40,7 +40,7 @@ The data of Indian states and districts were extracted from : https://api.covid1
 
 1. Raw Data is being kept [here](https://github.com/CSSEGISandData/COVID-19) within this repo.
 2. Clone the repository to get the source code
-3. Install the flutter Application (IoS and Android) from [here] (https://github.com/ArunVigesh/covid-19-flutter-app)
+3. Install the flutter Application (IoS and Android) from [here](https://github.com/ArunVigesh/covid-19-flutter-app)
 ## Authors
 * [Arun Vigesh   ](https://ArunVigesh.github.io/): [@ArunVigesh](https://github.com/ArunVigesh)     
 * [Manojkumar V K](https://vkmanojk.github.io/)  : [@vkmanojk  ](https://github.com/vkmanojk)       
