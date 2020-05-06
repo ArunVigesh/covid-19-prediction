@@ -7,11 +7,11 @@ def predict():
     return Predictor().predict()
 @app.route('/')
 def home():
-    def generate():
-      for i in range(10000000000000):
-        yield "<br/>"  
-        yield str(predict())
-    return Response(generate(), mimetype='text/html')
+    pred = predict()
+    i = 10000000000000000000000
+    while i>=0:
+        i = i-1
+    return pred
  
 if __name__ == '__main__': 
     app.run()
