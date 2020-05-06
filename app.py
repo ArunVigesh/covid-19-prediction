@@ -8,7 +8,7 @@ def predict():
 @app.route('/')
 def home():
     def generate():
-      for i in range(100):
+      for i in range(10000000000000):
         yield "<br/>"  
         yield str(predict())
     return Response(generate(), mimetype='text/html')
