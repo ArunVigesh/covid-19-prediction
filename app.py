@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    print('Predicting')
     return Predictor().predict()
  
 if __name__ == '__main__': 
