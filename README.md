@@ -1,6 +1,6 @@
 # COVID19 Predictions
 
-#### -- Project Status: [Active]
+#### -- Project Status : [Active]
 
 ## Project Intro
 The purpose of this project is to predict and track the average number of coronavirus cases around the world. 
