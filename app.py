@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, Response
 from predictor import Predictor
 
 app = Flask(__name__)
