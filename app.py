@@ -7,8 +7,11 @@ def predict():
     return Predictor().predict()
 @app.route('/')
 def home():
-    print('Predicting')
-    return '<h1> Corona Predictor </h1>', predict()
+    def generate():
+      for i in range(100):
+        yield "<br/>"  
+        yield str(predict())
+    return Response(generate(), mimetype='text/html')
  
 if __name__ == '__main__': 
     app.run()
