@@ -1,4 +1,3 @@
-fastai
 Flask
 gunicorn
 Keras
@@ -8,8 +7,6 @@ numpy
 pandas
 pmdarima
 requests
-requests-file
-requests-oauthlib
 scikit-image
 scikit-learn
 scipy
