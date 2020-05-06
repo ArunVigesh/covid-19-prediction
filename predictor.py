@@ -6,6 +6,7 @@ from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.arima_model import ARIMA
 from datetime import datetime, date, time, timezone,timedelta
 import io
+from flask import jsonify
 from sklearn.preprocessing import LabelEncoder
 import json
 pd.options.mode.chained_assignment = None
@@ -177,5 +178,5 @@ class Predictor:
   def predict(self):
     prediction = self.train()
     print('Forecasting')
-    return prediction
+    return jsonify(prediction)
 
