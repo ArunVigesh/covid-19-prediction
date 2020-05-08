@@ -14,7 +14,7 @@ The purpose of this project is to predict and track the average number of corona
 ### Technologies
 * Python
 * Github
-* Heroku
+* AWS
 * Android Studio
 * etc. 
 
